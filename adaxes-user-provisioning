@@ -1,0 +1,66 @@
+
+# Adaxes User Provisioning
+
+## Overview
+
+This repository covers user account administration and provisioning using Adaxes.
+
+Adaxes provides a management interface for Active Directory and supports automated workflows for common administrative tasks.
+
+## User Provisioning
+
+Common tasks include:
+
+- Creating new user accounts
+- Updating user information
+- Assigning users to security groups
+- Enabling and disabling accounts
+- Resetting passwords
+- Unlocking user accounts
+- Managing account attributes
+
+## New User Onboarding
+
+A typical user onboarding process includes:
+
+1. Receive an approved user creation request.
+2. Verify the required user details.
+3. Select the appropriate user creation workflow.
+4. Enter the required account information.
+5. Review the Organizational Unit and group assignments.
+6. Create the account.
+7. Verify that the account was created correctly.
+8. Confirm completion through the approved process.
+
+## Automation and Workflows
+
+Adaxes can support:
+
+- Business rules for account management
+- Automated account provisioning
+- Approval-based operations
+- Scheduled tasks
+- Standardized user management procedures
+
+Available automation depends on the environment's configuration.
+
+## Basic Troubleshooting
+
+| Issue | What to Check |
+|---|---|
+| User creation fails | Required fields and permissions |
+| Incorrect user details | Account attributes and provisioning template |
+| Missing access | Security group membership |
+| Workflow not completing | Approval status and operation results |
+| Account disabled | Account status and relevant policies |
+
+## Security Considerations
+
+- Follow approved account creation procedures.
+- Verify access requirements before assigning groups.
+- Avoid granting unnecessary permissions.
+- Do not include passwords or personal user information in documentation.
+
+## Note
+
+This repository contains general technical documentation and does not expose company-specific Adaxes workflows or internal infrastructure details.
